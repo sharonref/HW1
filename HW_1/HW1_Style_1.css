@@ -86,26 +86,17 @@ div {
 
 footer {
   padding: 3px;
-  background-image: linear-gradient
-      (0deg, rgba(11, 13, 13, 0.466) 10%, rgba(52, 52, 52, 0.419) 57%),
+  background-image: linear-gradient(
+      0deg,
+      rgba(188, 198, 198, 0.5) 10%,
+      rgba(237, 228, 236, 0.7) 57%
+    ),
     url(https://mediavine-res.cloudinary.com/image/upload/s--DyrV-i5h--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1657642853/gaofzvnkunex4447uifo.jpg);
-  /* background-size: auto; */
+  background-size: cover;
+  min-height: 100px;
   position: relative;
 }
 
-/* #white {
-  position: absolute;
-  background-color: black;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-} */
-
 .downcrumbs {
   position: absolute;
-}
-
-.try {
 }
