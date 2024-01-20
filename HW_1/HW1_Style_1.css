@@ -1,5 +1,23 @@
 html {
   scroll-behavior: smooth;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(230, 129, 208);
+}
+
+h3 {
+  text-align: center;
+  color: rgb(204, 116, 182);
+}
+
+.sec {
+  border-radius: 20px;
+  border: 2px solid rgb(51, 2, 47);
+  overflow: hidden;
+  padding: 5px;
 }
 
 #Blackberry {
@@ -53,15 +71,6 @@ div {
   margin: auto;
 }
 
-/*.flex_con {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  width: 200px;
-  height: 320px;
-  justify-content: center;
-}*/
-
 .card {
   display: inline-block;
   width: 200px;
@@ -93,10 +102,25 @@ footer {
     ),
     url(https://mediavine-res.cloudinary.com/image/upload/s--DyrV-i5h--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1657642853/gaofzvnkunex4447uifo.jpg);
   background-size: cover;
-  min-height: 100px;
+  min-height: 140px;
   position: relative;
 }
 
 .downcrumbs {
   position: absolute;
+  cursor: pointer;
+}
+
+.crumbs {
+  display: block;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 0.5px solid rgb(253, 69, 109);
+  border-radius: 2px;
+  background-color: rgb(255, 121, 149);
+  margin: 5px;
+  width: fit-content;
 }
